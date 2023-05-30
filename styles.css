@@ -1,0 +1,136 @@
+body {
+    background-color: #94CC7B;
+}
+
+img {
+    width:600px;
+}
+
+h1 {
+    color: #F3F9E3;
+    font-size:50px;
+}
+
+figure {
+    text-align:center;
+}
+
+
+/* Barra de navegación */
+.io {
+    display:none;
+}
+
+.io.io-responsive {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hawke.hawke-responsive {
+    display:none;
+}
+.botones.botones-responsive {
+    display:none;
+}
+
+.container-nav {
+    background-color: #D8829D;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    height: 50px;
+    font-size:30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+nav a {
+    color: #EDD83D;
+    text-decoration: none;
+    padding: 5px;
+}
+  nav a:hover {
+    color: #1BF7DE;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+  
+.brand {
+    display: flex;
+    align-items: center;
+}
+  
+  
+li>a {
+    padding: 8px 24px;
+}
+  
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+    
+.button-menu-toggle {
+    display: none;
+}
+
+
+
+@media (max-width: 650px) {  
+    .nav-links {
+      display: none;
+    }
+
+    img {
+        width:99%;
+    }
+  
+  
+    .button-menu-toggle {
+        display: block;
+        background-color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 20px;
+        color: #333;
+        cursor: pointer;
+    }
+    
+   
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+      z-index: 10;
+    }
+  }
+/* Barra de navegación */
