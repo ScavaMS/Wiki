@@ -2,6 +2,20 @@ body {
     background-color: #94CC7B;
 } 
 
+.container {
+    min-height: 500px;
+    padding:20px;
+    font-size:20px;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-family: monospace;
+    margin: 0;
+    padding:0;
+    text-align:flex-start;
+    text-align: left;}
+
 img {
     width:600px;
 }
