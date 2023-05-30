@@ -1,9 +1,13 @@
 body {
     background-color: #94CC7B;
-}
+} 
 
 img {
     width:600px;
+}
+
+strong {
+    color:#D8829D;
 }
 
 h1 {
