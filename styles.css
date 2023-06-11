@@ -14,13 +14,15 @@ pre {
     margin: 0;
     padding:0;
     text-align:flex-start;
-    text-align: left;}
+    text-align: left;
+}
 
 img {
     width:600px;
+    width:fit-content
 }
 
-strong {
+strong, pre a {
     color:#D8829D;
 }
 
@@ -31,6 +33,10 @@ h1 {
 
 figure {
     text-align:center;
+}
+
+h3 {
+    font-size:30px;
 }
 
 
